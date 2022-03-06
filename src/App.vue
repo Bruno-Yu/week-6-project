@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fix-top">
     <div class="container-fluid">
-      <router-link class="navbar-brand fw-bold" to="">富蘭克林 餐酒館</router-link>
+      <router-link class="navbar-brand fw-bold" to=""
+        >富蘭克林 餐酒館</router-link
+      >
       <div></div>
       <button
         class="navbar-toggler"
@@ -17,7 +19,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
           <li class="nav-item">
-            <router-link class="nav-link active" aria-current="page" to="/">首頁</router-link>
+            <router-link class="nav-link active" aria-current="page" to="/"
+              >首頁</router-link
+            >
           </li>
         </ul>
         <form class="d-flex">
@@ -27,7 +31,9 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-light my-2 text-nowrap" type="submit">搜尋</button>
+          <button class="btn btn-outline-light my-2 text-nowrap" type="submit">
+            搜尋
+          </button>
         </form>
       </div>
     </div>

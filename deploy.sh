@@ -17,7 +17,7 @@ git commit -m 'deploy'
 
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Bruno-Yu/week-6-project.git master:gh-pages
+git push -f git@github.com:Bruno-Yu/week-6-project.git main:gh-pages
 cd -
 
 # 執行指令，在終端機輸入 deploy.sh
